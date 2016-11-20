@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Inspos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Caption</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @inspos.each do |inspo| %>
+      <tr>
+        <td><%= inspo.caption %></td>
+        <td><%= link_to 'Show', inspo %></td>
+        <td><%= link_to 'Edit', edit_inspo_path(inspo) %></td>
+        <td><%= link_to 'Destroy', inspo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Inspo', new_inspo_path %>
