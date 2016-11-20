@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
+.inspo_title {
+      font-family: 'Lobster', cursive;
+}

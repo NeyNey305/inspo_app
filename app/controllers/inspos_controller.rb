@@ -69,6 +69,6 @@ class InsposController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def inspo_params
-      params.require(:inspo).permit(:caption)
+      params.require(:inspo).permit(:caption, :image)
     end
 end

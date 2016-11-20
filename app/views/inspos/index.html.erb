@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Inspos</h1>
+<h1 class="inspo_title">Inspo</h1>
 
 <table>
   <thead>
@@ -14,6 +14,7 @@
     <% @inspos.each do |inspo| %>
       <tr>
         <td><%= inspo.caption %></td>
+        <td><%= image_tag inspo.image.url(:medium) %></td>
         <td><%= link_to 'Show', inspo %></td>
         <td><%= link_to 'Edit', edit_inspo_path(inspo) %></td>
         <td><%= link_to 'Destroy', inspo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
