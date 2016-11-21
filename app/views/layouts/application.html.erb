@@ -16,17 +16,19 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
 
   <body>
 
     <div id="nav">
         <% if current_user %>
-          <%= link_to "Edit Profile", edit_user_path(current_user.id) %>
-          <%= link_to "Logout", :logout, method: :post %>
+          <%= link_to 'New Inspo', new_inspo_path, class:"btn btn-primary"%>
+          <%= link_to "Edit Profile", edit_user_path(current_user.id), class:"btn btn-default" %>
+          <%= link_to "Logout", :logout, method: :post, class:"btn btn-warning" %>
         <% else %>
-          <%= link_to "Register", new_user_path %> |
-          <%= link_to "Login", :login %>
+          <%= link_to "Register", new_user_path, class:"btn btn-success" %>
+          <%= link_to "Login", :login, class:"btn btn-info" %>
         <% end %>
       </div>
       <div>

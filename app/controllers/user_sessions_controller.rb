@@ -1,6 +1,10 @@
 class UserSessionsController < ApplicationController
   skip_before_action :require_login, except: [:destroy]
 
+  def index
+    
+  end
+
   def new
     @user = User.new
   end

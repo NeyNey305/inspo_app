@@ -1,13 +1,16 @@
+<div class="login_form_body">
+
 <%= form_tag user_sessions_path, :method => :post do %>
   <div class="field">
     <%= label_tag :email %><br />
-    <%= text_field_tag :email %>
+    <%= text_field_tag :email, "", class:"login_form" %>
   </div>
   <div class="field">
     <%= label_tag :password %><br />
-    <%= password_field_tag :password %>
+    <%= password_field_tag :password, "", class:"login_form" %>
   </div>
   <div class="actions">
-    <%= submit_tag "Login" %>
+    <%= submit_tag "Login" , class:"btn btn-info" %>
   </div>
 <% end %>
+</div>

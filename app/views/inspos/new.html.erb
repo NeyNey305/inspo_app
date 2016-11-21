@@ -1,5 +1,8 @@
-<h1 class="inspo_title">New Inspo</h1>
+<!-- ADDING A NEW INSPO -->
+<h1 id="new-inspo">New Inspo</h1>
 
-<%= render 'form', inspo: @inspo %>
+<div class="new-inspo-form">
+  <%= render 'form', inspo: @inspo %>
+</div>
 
-<%= link_to 'Back', inspos_path %>
+<%= link_to 'Back', inspos_path, class:"btn btn-default" %>

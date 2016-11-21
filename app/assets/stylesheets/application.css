@@ -16,4 +16,15 @@
 
 .inspo_title {
       font-family: 'Lobster', cursive;
+
+}
+
+#nav {
+  position: relative;
+  padding-left: 51em;
+  padding-top: 5em;
+
+  display: inline;
+  color: white;
+
 }

@@ -1,5 +1,9 @@
-<h1>Login</h1>
+<h1 id="login_index_title">Login</h1>
 
-<%= render 'form' %>
+<div class="login-form">
+  <%= render 'form' %>
+</div>
 
-<%= link_to 'Back', user_sessions_path %>
+<div class="back_button_pos">
+  <%= link_to 'Back', users_path, class:"btn btn-default"%>
+</div>

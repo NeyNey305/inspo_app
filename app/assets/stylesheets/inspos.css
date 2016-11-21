@@ -3,6 +3,51 @@
   They will automatically be included in application.css.
 */
 
-h1 {
-    font-family: 'Lobster', cursive;
+/*INDEX PAGE HEADING - INDEX PAGE */
+#index_inspo {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  color: #edc131;
+  font-size: 7em;
+}
+
+#top-title {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  position: relative;
+}
+
+/*IMAGE GALLERY-INDEX PAGE*/
+.title_box {
+  position: relative;
+}
+
+#vibe-line {
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  padding-left: 35em;
+}
+
+/*ADDING NEW INSPO - NEW PAGE*/
+#new-inspo {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  color: #6331ed;
+  padding-top: 3em;
+}
+
+
+/*FORMATTING NEW-INSPO FORM*/
+.new-inspo-form {
+  /*text-align: center;*/
+  margin-left: 10em;
+}
+
+.field {
+  margin-left: 15em;
+}
+
+.actions {
+  margin-left: 17em;
 }
