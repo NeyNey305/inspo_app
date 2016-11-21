@@ -14,17 +14,17 @@
  *= require_self
  */
 
-.inspo_title {
-      font-family: 'Lobster', cursive;
 
-}
-
+/******************************* LOGIN AND REGISTER BUTTONS ********************************/
 #nav {
   position: relative;
   padding-left: 51em;
   padding-top: 5em;
-
   display: inline;
   color: white;
+}
 
+/*************************** NOTICE CUSTOMIZATION ***************************************/
+#notice {
+  
 }

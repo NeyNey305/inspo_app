@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>InspoApp</title>
+    <title>Inspo</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -32,8 +32,8 @@
         <% end %>
       </div>
       <div>
-        <!-- <p id="notice"><%= flash[:notice] %></p> -->
-        <p id="alert"><%= flash[:alert] %></p>
+        <p id="notice"><%= flash[:notice] %></p>
+        <!-- <p id="alert"><%= flash[:alert] %></p> -->
       </div>
 
     <%= yield %>

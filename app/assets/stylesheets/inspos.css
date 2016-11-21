@@ -3,7 +3,7 @@
   They will automatically be included in application.css.
 */
 
-/*INDEX PAGE HEADING - INDEX PAGE */
+/******************************INDEX PAGE HEADING - INDEX PAGE ***************************/
 #index_inspo {
   font-family: 'Lobster', cursive;
   text-align: center;
@@ -17,7 +17,7 @@
   position: relative;
 }
 
-/*IMAGE GALLERY-INDEX PAGE*/
+/************************** IMAGE GALLERY-INDEX PAGE **************************************/
 .title_box {
   position: relative;
 }
@@ -29,7 +29,7 @@
   padding-left: 35em;
 }
 
-/*ADDING NEW INSPO - NEW PAGE*/
+/************************* ADDING NEW INSPO - NEW PAGE ************************************/
 #new-inspo {
   font-family: 'Lobster', cursive;
   text-align: center;
@@ -38,7 +38,7 @@
 }
 
 
-/*FORMATTING NEW-INSPO FORM*/
+/************************** FORMATTING NEW-INSPO FORM ************************************/
 .new-inspo-form {
   /*text-align: center;*/
   margin-left: 10em;

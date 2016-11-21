@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/////////////////// ROOT PAGE (LOGIN-REGISTER) /////////////////////////
 .inspo_title {
       font-family: 'Lobster', cursive;
       text-align: center;
@@ -17,6 +18,27 @@
   background-size: auto;
 }
 
-// div.hidden {
-  // display: none;
-// }
+
+/////////////////// EDIT USER PROFILE //////////////////////////////////
+#edit-profile {
+   text-align: center;
+   font-family: 'Lobster', cursive;
+   padding-top: 2.3em;
+}
+
+#edit-form {
+text-align: center;
+padding-right: 15em;
+}
+
+
+///////////////////// NEW USER FORM - REGISTRATION ///////////////////////////
+.new-user-form {
+  border: none;
+  border-bottom: 1.5px solid black;
+}
+
+#welcome-inspo {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
