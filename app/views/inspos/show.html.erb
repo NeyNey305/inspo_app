@@ -1,11 +1,13 @@
 <p id="notice"><%= notice %></p>
 
-<%= image_tag @inspo.image.url(:medium) %>
+<div id="move-show-form">
+ <%= image_tag @inspo.image.url(:medium) %>
 
 <p>
   <strong>Caption:</strong>
   <%= @inspo.caption %>
 </p>
+</div>
 
-<%= link_to 'Edit', edit_inspo_path(@inspo) %> |
-<%= link_to 'Back', inspos_path %>
+<%= link_to 'Edit', edit_inspo_path(@inspo), class:'btn btn-default' %> |
+<%= link_to 'Back', inspos_path, class:'btn btn-default' %>
