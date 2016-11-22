@@ -1,24 +1,5 @@
-# README
+# Inspo App
+This is an app that allows anyone to upload and browse inspirational pictures. 
+Rails, HTML & CSS were used in making the first draft. This is app is still in development. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I will add an interactive and responsive image gallery. I will also add more styling to the buttons, forms and layouts.
