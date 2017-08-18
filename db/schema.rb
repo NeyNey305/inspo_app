@@ -13,7 +13,7 @@
 ActiveRecord::Schema.define(version: 20161120091121) do
 
   create_table "inspos", force: :cascade do |t|
-    t.text     "caption"
+    t.string   "caption"
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
     t.string   "image_file_name"
